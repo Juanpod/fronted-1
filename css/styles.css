@@ -24,11 +24,14 @@ a {
 
 .btn {
     background-color: #8B48BF;
-    border: none;
     border-radius: 50px;
     color: #FFFFFF;
     height: 44px;
     width: 134px;
+    text-align: center;
+    font-size: 13.18px;
+    line-height: 19.26px;
+    padding-top: 12.37px;
 }
 
 /* Fin General--------------------- */
@@ -119,6 +122,45 @@ p.text-box {
 }
 
     /* Fin mid banner */
+
+.cards-section-top {
+    flex-wrap:wrap;
+    justify-content: center;
+    height: 428px;
+    align-items:center;
+}
+
+.card-feature {
+    height: 151.5px;
+    width: 530px;
+    margin: 0px 37px;
+}
+
+.icon-numbers {
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 23.38px;
+    width: 69px;
+    height: 43px;
+    border-radius: 30px;
+    padding-top: 9.81px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.text-feature {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16.3px;
+    padding: 10px 0px 10px 10px;
+    color: #B3B2B7;
+}
+
+.text-feature h4 {
+    font-size: 16px;
+    color: #323851;
+}
 
 
 
