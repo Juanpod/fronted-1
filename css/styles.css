@@ -59,7 +59,7 @@ header {
     color: rgba(36, 46, 82, 0.6);
 }
 
-.header-btn {
+.shadow-btn {
     box-shadow: 0 4px 7px rgba(0,0,0,0.25);
 }
 
@@ -169,7 +169,7 @@ p.text-box {
 }
 
     /* Fin features destacadas */
-
+    /* Best of the month section */
 .best-section {
     flex-direction: column;
     align-items: center;
@@ -182,10 +182,6 @@ p.text-box {
     color: #242E53;
     font-weight: 700;
 }
-
-/* .player-cards {
-
-} */
 
 .player {
     flex-direction: column;
@@ -204,6 +200,29 @@ p.text-box {
     left: 50%;
     transform: translateX(-50%);
     top: -35px;
+}
+
+    /* Fin best of the month section */
+
+    /* Go for it section */
+
+.go-section {
+    background-color: #8B48BF;
+    align-items: center;
+    justify-content: space-around;
+    height: 224px;
+
+}
+
+.go-section h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 450px;
+}
+
+.btn-go-section {
+    background-color: #FFFFFF;
+    color: #8B48BF;
 }
 
 
