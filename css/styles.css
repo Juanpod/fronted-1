@@ -40,8 +40,10 @@ a {
 
 header {
     align-items: center;
+    background-color: #F5F5F5;
     height: 174px;
     justify-content: space-around;
+    
     
 }
 
@@ -67,8 +69,10 @@ header {
 
 .top-section {
     align-items: center;
+    background-color: #F5F5F5; 
     height: 557px;
-    justify-content: center;   
+    justify-content: center;  
+    
 }
 
 .top-section-text {
@@ -122,12 +126,14 @@ p.text-box {
 }
 
     /* Fin mid banner */
+    /* Inicio Features descatadas */
 
 .cards-section-top {
     flex-wrap:wrap;
     justify-content: center;
     height: 428px;
     align-items:center;
+    background-color: #FAFAFA;
 }
 
 .card-feature {
@@ -161,6 +167,10 @@ p.text-box {
     font-size: 16px;
     color: #323851;
 }
+
+    /* Fin features destacadas */
+
+    
 
 
 
