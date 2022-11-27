@@ -63,51 +63,52 @@ header {
 /* Seccion top  ------------------------- */
 
 .top-section {
-    justify-content: center;
-    height: 557px;
     align-items: center;
-    
+    height: 557px;
+    justify-content: center;   
 }
 
 .top-section-text {
-    flex-direction: column;
     align-items: flex-end;
+    flex-direction: column;
     justify-content: center;
-    width: 550px;
     padding-left: 100px;
+    width: 550px;
 }
 
 .top-section-text h1{
+    color: #232C50;
     font-size: 48px;
     line-height: 57px;
     text-align: right;
-    color: #232C50;
 }
 
 .top-section-text h3 {
     font-size: 16.56px;
-    text-align: right;
     font-weight: 500;
     margin: 28px 0px;
+    text-align: right;
 }
 
 /* Seccion top fin -------------------- */
-
+/*  Inicio del main */
 main {
     flex-direction: column;
 }
 
+
+    /* Mid banner */
 .mid-banner {
-    height: 168px;
-    background-color: #8B48BF;
     align-items: center;
+    background-color: #8B48BF;
     color: #FFFFFF;
+    height: 168px;
     justify-content: center;
 }
 .text-box {
-    width: 450px;
     height: 88px;
     margin: 0px 50px;
+    width: 450px;
 }
 
  h2.text-box{
@@ -116,6 +117,11 @@ main {
 p.text-box {
     font-size: 16px;
 }
+
+    /* Fin mid banner */
+
+
+
 
 
 
