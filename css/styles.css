@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+
 
 /* FLEXBOX */
 
@@ -11,7 +13,7 @@
     display: flex;
 }
 
-/* General */
+/* General -----------------------*/
 
 ul {
     list-style-type: none;
@@ -22,28 +24,45 @@ a {
 
 .btn {
     background-color: #8B48BF;
-    height: 44px;
-    width: 134px;
+    border: none;
     border-radius: 50px;
     color: #FFFFFF;
-    border: none;
+    height: 44px;
+    width: 134px;
+}
+
+/* Fin General--------------------- */
+
+/* header --------------------------*/
+
+header {
+    align-items: center;
+    height: 174px;
+    justify-content: space-around;
     
 }
 
-/* header */
-
-header {
-    height: 174px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header nav ul li{
+.top-nav li a{
+    color: #242E52;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.89px;
     margin: 0px 0px 14px 14px;
 }
 
-header .btn {
+.top-nav li a:hover {
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.header-btn {
     box-shadow: 0 4px 7px rgba(0,0,0,0.25);
 }
+
+/*  Fin Header ------------------------- */
+
+
+
+
+
 
 
