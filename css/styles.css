@@ -170,7 +170,41 @@ p.text-box {
 
     /* Fin features destacadas */
 
-    
+.best-section {
+    flex-direction: column;
+    align-items: center;
+    height: 755px;
+    justify-content: space-evenly;
+}
+
+.best-section h2 {
+    font-size: 39.21px;
+    color: #242E53;
+    font-weight: 700;
+}
+
+/* .player-cards {
+
+} */
+
+.player {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+    width: 450px;
+    background-color: #FAFAFA;
+    position: relative;
+    padding: 54px 21px 21px 21px;
+    text-align: center;
+}
+
+.player img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+}
 
 
 
