@@ -93,6 +93,29 @@ header {
 
 /* Seccion top fin -------------------- */
 
+main {
+    flex-direction: column;
+}
+
+.mid-banner {
+    height: 168px;
+    background-color: #8B48BF;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.text-box {
+    width: 450px;
+    height: 88px;
+    margin: 0px 50px;
+}
+
+ h2.text-box{
+    font-size: 36px;
+}
+p.text-box {
+    font-size: 16px;
+}
 
 
 
