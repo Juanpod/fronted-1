@@ -400,7 +400,7 @@ footer {
         display: none;
     }
     /* fin players */
-    /* .go-section {
+    .go-section {
         flex-direction: column;
         height: 366px;
         background-color: #3CDDF3;
@@ -414,13 +414,12 @@ footer {
         color: #FFFFFF;
     }
     /* footer */
-    /* footer {
+    footer {
         flex-direction: column-reverse;
         height: 534.71px;
         align-items: center;
         justify-content: flex-end;
-    } */
-/* 
+    }
     .left-column-footer {
         flex-direction: column-reverse;
         width: 100%;
@@ -431,10 +430,10 @@ footer {
         padding-top: 47px;
     } */
     
-    /* .social-links {
+    .social-links {
         justify-content: space-around;
 
-    }
+    } 
 
     .right-column-footer {
         padding: 52.26px 0px 0px 0px;
@@ -448,7 +447,7 @@ footer {
         bottom: -400px;
         width: 100%;
         text-align: center;
-    }  */
+    } 
 }
 
 
