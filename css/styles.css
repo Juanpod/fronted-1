@@ -46,7 +46,7 @@ header {
     align-items: center;
     background-color: #F5F5F5;
     height: 174px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .top-nav li a{
@@ -132,6 +132,7 @@ p.text-box {
     justify-content: center;
     height: 428px;
     align-items:center;
+    background-color: #FAFAFA;
     
 }
 
@@ -140,7 +141,7 @@ p.text-box {
     height: 151.5px;
     width: 530px;
     margin: 0px 37px;
-    background-color: #FAFAFA;
+    
 
 }
 
@@ -218,6 +219,10 @@ p.text-box {
     top: -35px;
 }
 
+.btn-hover:hover {
+    background-color: rgba(139, 72, 191, 0.7);;
+}
+
     /* Fin best of the month section -----------------------------*/
 
     /* Go for it section ----------------------------------------*/
@@ -225,8 +230,9 @@ p.text-box {
 .go-section {
     background-color: #8B48BF;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 224px;
+    padding: 0px 210px 0px 165px;
 
 }
 
@@ -352,10 +358,19 @@ footer {
         height: 306px;
         background-color: #3CDDF3;
         justify-content: center;
+        padding-right: 30px;
     }
     .text-box {
         margin: 25px 0px;
         width: 91.6%;
+    }
+    p.text-box {
+        visibility: hidden;
+    }
+    p.text-box::before {
+        content: "Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams";
+        visibility: visible;
+        line-height: 24.18px;
     }
     /*  features */
     .cards-section-top {
@@ -364,12 +379,13 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 65px;
+        background-color: #FFFFFF;
     }
     .card-feature {
         height: 204px;
         width: 100%;
         padding-left: 34px;
-        background-color: #FFFFFF;
+        
         
     }
     .text-feature {
